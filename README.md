@@ -1,6 +1,6 @@
-#flash2EXE
+# flash2EXE
 
-##YOU NEED A WINDOWS MACHINE TO CONVERT OR RUN CONVERTED FILES. Run `test.exe` to see if this will work on your system, `test.swf` is the source of that file.
+## YOU NEED A WINDOWS MACHINE TO CONVERT OR RUN CONVERTED FILES. Run `test.exe` to see if this will work on your system, `test.swf` is the source of that file.
 
 Step 1:
 Place the swf file in the folder with the rest of the files, and run `prepare_for_run.bat`. When it asks for the name of swf file, enter the name of the swf file that you placed in the folder with the rest of the files and press enter. When it opens the folder at `C:\tmp\Flash`, do not close the folder, you will need it later.
