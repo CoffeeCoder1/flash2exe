@@ -10,4 +10,4 @@
 
 #### Step 4: Leave Create Package selected and click next. Click next again. Your package is now being created!
 
-###### *SWF of flash test was taken from https://www.ultrasounds.com/*
+###### SWF of flash test was taken from [UltraSounds](https://www.ultrasounds.com/)
