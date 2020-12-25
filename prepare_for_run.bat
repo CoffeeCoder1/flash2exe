@@ -9,3 +9,5 @@ cls
 copy %Pathvar% C:\tmp\Flash\tmp.swf
 %SystemRoot%\explorer.exe "c:\tmp\Flash\"
 cls
+echo Done!
+timeout 1
