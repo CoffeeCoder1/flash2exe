@@ -26,12 +26,12 @@ DisplayLicense=
 FinishMessage=
 TargetName=C:\tmp\Flash\Export.EXE
 FriendlyName=Preparing...
-AppLaunched=flashplayer_32_sa.exe tmp.swf
+AppLaunched=flashplayer_projector.exe tmp.swf
 PostInstallCmd=<None>
 AdminQuietInstCmd=
 UserQuietInstCmd=
-FILE0="flashplayer_32_sa.exe"
-FILE1="tmp.swf"
+FILE0="tmp.swf"
+FILE1="flashplayer_projector.exe"
 [SourceFiles]
 SourceFiles0=C:\tmp\Flash\
 [SourceFiles0]
