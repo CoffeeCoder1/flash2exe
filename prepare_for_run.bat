@@ -1,7 +1,7 @@
 echo off
 cls
 mkdir c:\tmp\Flash\
-copy flashplayer_32_sa.exe C:\tmp\Flash\flashplayer_projector.exe
+copy flashplayer.exe C:\tmp\Flash\flashplayer_projector.exe
 cls
 echo Welcome to the preperation tool for flash2exe!
 echo "%~1"
