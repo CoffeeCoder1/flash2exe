@@ -1,0 +1,13 @@
+THIS IS NOT A LICENSE, Find the license on the Github page.
+
+For the most up-to-date info, check the README.
+
+1) When it opens explorer, place the flash program in the folder it opens. Close the window.
+
+2) Type in the name of the flash program. Press enter.
+
+3) When it asks for admin privellages, give them.
+
+4) In the wizard that opens press next, select create package, and create it.
+
+5) The file will be exported to c:/tmp/flash/export.exe.
