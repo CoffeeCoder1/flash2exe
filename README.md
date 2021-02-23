@@ -2,7 +2,7 @@
 
 ## YOU NEED A WINDOWS MACHINE TO CONVERT OR RUN CONVERTED FILES. Run `test.exe` to see if this will work on your system, `test.swf` is the source of that file.
 
-##USING SELF-EXTRACTING EXE:
+##USING SELF-EXTRACTING EXE (Obsolete, just use the other method now):
 
 ### 1) When it opens explorer, place the flash program in the folder it opens. Close the window.
 
