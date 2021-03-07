@@ -1,5 +1,3 @@
-# flash2exe
+# This site is not finished. It currently serves no function, and needs to be updated.
 
 ## [README](https://github.com/CoffeeCoder1/flash2exe/readme.md)
-
-## [view on github](https://github.com/CoffeeCoder1/flash2exe)
