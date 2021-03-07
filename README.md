@@ -1,7 +1,7 @@
-# flash2exe
-## Convert Flash Files (SWF) To Self-Extracting EXE.
+# `flash2exe`
+## Convert Flash Files (`SWF`) To Self-Extracting `EXE`.
 
-# Linux version in progress, mac version planned but not started
+# `Linux` version in progress, `OSX` version planned but not started
 
 ## Windows
 
