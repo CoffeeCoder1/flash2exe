@@ -5,4 +5,4 @@
 
 ## Windows
 
-### [v1](https://github.com/CoffeeCoder1/flash2exe/tree/main/Windows/V1/)
+### [V1](https://github.com/CoffeeCoder1/flash2exe/tree/main/Windows/V1/)
