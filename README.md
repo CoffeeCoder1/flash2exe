@@ -1,8 +1,10 @@
 # flash2EXE
 
+# THIS HAS NOT BEEN UPDATED IN FOREVER, BUT MORE UPDATES ARE COMING SOON
+
 ## YOU NEED A WINDOWS MACHINE TO CONVERT OR RUN CONVERTED FILES. Run `test.exe` to see if this will work on your system, `test.swf` is the source of that file.
 
-##USING SELF-EXTRACTING EXE (Obsolete, just use the other method now):
+## USING SELF-EXTRACTING EXE (Obsolete, just use the other method now):
 
 ### 1) When it opens explorer, place the flash program in the folder it opens. Close the window.
 
@@ -14,7 +16,7 @@
 
 ### 5) The file will be exported to c:/tmp/flash/export.exe.
 
-##USING FILES IN FOLDER:
+## USING FILES IN FOLDER:
 
 ### 0.1) If you use an alternative flash player, place it in the folder with the rest of the files, delete `flashplayer.exe`, and rename it `flashplayer.exe`.
 
