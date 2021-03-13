@@ -24,6 +24,7 @@ echo Creating Variables...
   set SWFFile="%1"
   set 7zipDrv="%2"
   set EXEName="%3"
+  set EchoInSearch="%4"
   
 echo Done!
 
@@ -68,4 +69,4 @@ echo Done!
 
 echo Locating 7zip...
 
-  search.bat "%SWFFile%" "%7zipDrv%" "%flashProjectorName%" "%lzmaName%" "%EXEName%" > srlog.txt
+  search.bat "%SWFFile%" "%7zipDrv%" "%flashProjectorName%" "%lzmaName%" "%EXEName%" "%EchoInSearch%"> srlog.txt
