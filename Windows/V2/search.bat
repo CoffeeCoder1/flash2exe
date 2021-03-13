@@ -13,10 +13,11 @@ echo Setting some variables...
   set flashProjectorName="%3"
   set lzmaName="%4"
   set EXEName="%5"
-  
+  set Verbose="%6"
   
 echo Done!
 
+@echo %Verbose%
 
 echo Fixing some variables...
 
