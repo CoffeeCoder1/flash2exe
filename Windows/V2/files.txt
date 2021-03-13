@@ -1,3 +1,9 @@
 https://www.7-zip.org/a/lzma1900.7z
+https://raw.githubusercontent.com/CoffeeCoder1/flash2exe/main/Windows/V2/copyfiles.bat
 https://raw.githubusercontent.com/CoffeeCoder1/flash2exe/main/Windows/V2/createSFX.bat
+https://raw.githubusercontent.com/CoffeeCoder1/flash2exe/main/Windows/V2/download7zip.bat
+https://raw.githubusercontent.com/CoffeeCoder1/flash2exe/main/Windows/V2/downloader.bat
+https://raw.githubusercontent.com/CoffeeCoder1/flash2exe/main/Windows/V2/packIn7z.bat
+https://raw.githubusercontent.com/CoffeeCoder1/flash2exe/main/Windows/V2/search.bat
+https://raw.githubusercontent.com/CoffeeCoder1/flash2exe/main/Windows/V2/unpackLZMA.bat
 https://fpdownload.macromedia.com/pub/flashplayer/updaters/32/flashplayer_32_sa.exe
