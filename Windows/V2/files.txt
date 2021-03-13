@@ -1,2 +1,3 @@
 https://www.7-zip.org/a/lzma1900.7z
-https://github.com/CoffeeCoder1/flash2exe/raw/main/Windows/V2/createsfx.bat
+https://raw.githubusercontent.com/CoffeeCoder1/flash2exe/main/Windows/V2/createsfx.bat
+https://fpdownload.macromedia.com/pub/flashplayer/updaters/32/flashplayer_32_sa.exe
