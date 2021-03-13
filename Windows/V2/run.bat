@@ -4,6 +4,13 @@ echo Setting Verbose...
 
   set Verbose="%4"
 
+  if %Verbose%=="" set Verbose=off
+
+@echo %Verbose%
+
+echo Done!
+
+
 echo Creating folders...
 
   IF NOT EXIST download (
@@ -34,4 +41,4 @@ echo Done!
 
 echo Running downloader...
 
-  downloader.bat "%SWFFile%" "%7zipDrv%" "%EXEName%" "%Verbose%"> dllog.txt
+  downloader.bat "%SWFFile%" "%7zipDrv%" "%EXEName%" "%Verbose%" > dllog.txt
