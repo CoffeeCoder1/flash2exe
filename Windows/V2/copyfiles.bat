@@ -47,6 +47,13 @@ echo Done!
 
   cd sfx
 
+echo Copying Program Files...
+
+  copy packIn7z.bat "sfx\packIn7z.bat"
+  copy createSFX.bat "sfx\createSFX.bat"
+  
+echo Done!
+
 echo Creating 7zip File...
 
   packIn7z.bat "%SWFFile%" "%7zipDrv%" "%flashProjectorName%" "%lzmaName%" "%7zipPath%" "EXEName" > packfilelog.txt
