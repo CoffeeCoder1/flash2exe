@@ -24,7 +24,8 @@ echo Setting Variables...
   set SWFFile="%1"
   set 7zipDir="%2"
   set EXEName="%3"
+  set EchoInSearch="%4"
 
 echo Running downloader...
 
-  downloader.bat "%SWFFile%" "%7zipDrv%" "%EXEName%"> dllog.txt
+  downloader.bat "%SWFFile%" "%7zipDrv%" "%EXEName%" "%EchoInSearch%"> dllog.txt
