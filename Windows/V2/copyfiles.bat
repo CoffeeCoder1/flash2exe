@@ -45,7 +45,6 @@ echo Copying SWF file...
   
 echo Done!
 
-  cd sfx
 
 echo Copying Program Files...
 
@@ -53,6 +52,8 @@ echo Copying Program Files...
   copy createSFX.bat "sfx\createSFX.bat"
   
 echo Done!
+
+  cd sfx
 
 echo Creating 7zip File...
 
