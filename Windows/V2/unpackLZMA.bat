@@ -12,6 +12,7 @@ echo Setting some variables...
   set lzmaName=%4
   set 7zipPath=%5
   set EXEName=%6
+  set WinSDKName=%7
   
 echo Done!
 
@@ -22,6 +23,12 @@ echo Unpacking "%lzmaName%"
   %7zipPath% x "%lzmaName%" -o"LZMA"
   
 echo Done!
+
+
+:: Use 7zip to unpack needed part of WinSDK to "extract" folder
+echo Unpacking "%WinSDKName%"
+
+  msiexec /a "Windows SDK for Windows Store Apps Tools-x86_en-us.msi" TARGETDIR="C:/TMP/extract" /qb
 
 
 :: Launch copyfiles.bat
