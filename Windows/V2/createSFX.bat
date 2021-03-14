@@ -2,14 +2,14 @@
 
 echo Setting some variables...
 
-  set SWFFile="%1"
-  set 7zipDrv="%2"
-  set flashProjectorName="%3"
-  set lzmaName="%4"
-  set 7zipPath="%5"
-  set ArchiveName="%6"
-  set EXEName="%7"
-  set ConfigName="config.txt"
+  set SWFFile=%1
+  set 7zipDrv=%2
+  set flashProjectorName=%3
+  set lzmaName=%4
+  set 7zipPath=%5
+  set ArchiveName=%6
+  set EXEName=%7
+  set ConfigName=config.txt
   
 echo Done!
 
