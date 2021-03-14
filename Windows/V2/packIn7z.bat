@@ -14,14 +14,13 @@ echo Setting some variables...
 echo Done!
 
 
-cd archive
 :: Create 7zip archive
 echo Creating 7zip Archive (%ArchiveName%)...
 
-  %7zipPath% a -r "%archive.7z" sfx
+  %7zipPath% a -r "%archive.7z" archive
   
 echo Done!
-cd ..
+
 
 echo Adding Manifest to 7zSD.sfx (makes it not run as admin every time)...
 
