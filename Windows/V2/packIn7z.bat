@@ -14,17 +14,18 @@ echo Setting some variables...
 echo Done!
 
 
+cd archive
 :: Create 7zip archive
 echo Creating 7zip Archive (%ArchiveName%)...
 
   %7zipPath% a -r "%archive.7z" sfx
   
 echo Done!
+cd ..
 
+echo Adding Manifest to 7zSD.sfx (makes it not run as admin every time)...
 
-echo Creating SFX...
-
-:: Start createSFX.bat
+:: Start addManifest.bat
 pause
 
   start cmd /c addManifest.bat %SWFFile% %7zipDrv% %flashProjectorName% %lzmaName% %7zipPath% %ArchiveName% %EXEName% > crsfxlog.txt
