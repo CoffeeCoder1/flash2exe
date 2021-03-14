@@ -76,7 +76,7 @@ echo Done!
 IF EXIST "%foundFilePath%" (
   echo The path to 7zip is set to '%foundFilePath%'
   echo Unpacking Files...
-  start cmd /c unpackLZMA.bat "%SWFFile%" "%7zipDrv%" "%flashProjectorName%" "%lzmaName%" "%foundFilePath%" "%EXEName%" > uplog.txt
+  start cmd /c unpackLZMA.bat %SWFFile% %7zipDrv% %flashProjectorName% %lzmaName% %foundFilePath% %EXEName% > uplog.txt
 ) else (
   echo Could not find file '%filename%' under '%searchPath%'
   echo Downloading 7zip installer...
