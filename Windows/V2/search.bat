@@ -36,6 +36,23 @@ echo Done!
 
 echo Searching for 7z.exe...
 
+echo Does "C:/Program Files/7zip/7z.exe" Exist?
+
+  if exist "C:/Program Files/7-Zip/7z.exe" (
+    echo Yes!
+    set foundFilePath="C:/Program Files/7-Zip/7z.exe"
+    goto :foundfile
+  ) else ( echo No )
+
+
+echo Does "C:/Program Files (x86)/7zip/7z.exe" Exist?
+
+  if exist "C:/Program Files (x86)/7-Zip/7z.exe" (
+    echo Yes!
+    set foundFilePath="C:/Program Files (x86)/7-Zip/7z.exe"
+    goto :foundfile
+  ) else ( echo No )
+
   :: echos and saves first found path
   FOR /R "%searchPath%" %%a  in (%filename%) DO (
     IF EXIST "%%~fa" (
