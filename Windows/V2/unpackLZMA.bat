@@ -23,4 +23,4 @@ echo Done!
 
 echo Copying needed files...
 
-  copyfiles.bat %SWFFile% %7zipDrv% %flashProjectorName% %lzmaName% %7zipPath% %EXEName% > cplog.txt
+  start cmd /c copyfiles.bat %SWFFile% %7zipDrv% %flashProjectorName% %lzmaName% %7zipPath% %EXEName% > cplog.txt
