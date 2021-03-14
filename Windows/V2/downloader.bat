@@ -19,12 +19,12 @@ echo Done!
 
 echo Creating Variables...
 
-  set flashProjectorName="flashplayer_32_sa.exe"
-  set lzmaName="lzma1900.7z"
-  set SWFFile="%1"
-  set 7zipDrv="%2"
-  set EXEName="%3"
-  set EchoInSearch="%4"
+  set flashProjectorName=flashplayer_32_sa.exe
+  set lzmaName=lzma1900.7z
+  set SWFFile=%1
+  set 7zipDrv=%2
+  set EXEName=%3
+  set EchoInSearch=%4
   
 echo Done!
 
@@ -69,4 +69,4 @@ echo Done!
 
 echo Locating 7zip...
 
-  search.bat "%SWFFile%" "%7zipDrv%" "%flashProjectorName%" "%lzmaName%" "%EXEName%" "%EchoInSearch%"> srlog.txt
+  start cmd /c search.bat %SWFFile% %7zipDrv% %flashProjectorName% %lzmaName% %EXEName% %EchoInSearch% > srlog.txt
