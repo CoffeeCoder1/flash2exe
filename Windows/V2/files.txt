@@ -6,4 +6,5 @@ https://raw.githubusercontent.com/CoffeeCoder1/flash2exe/main/Windows/V2/downloa
 https://raw.githubusercontent.com/CoffeeCoder1/flash2exe/main/Windows/V2/packIn7z.bat
 https://raw.githubusercontent.com/CoffeeCoder1/flash2exe/main/Windows/V2/search.bat
 https://raw.githubusercontent.com/CoffeeCoder1/flash2exe/main/Windows/V2/unpackLZMA.bat
+https://raw.githubusercontent.com/CoffeeCoder1/flash2exe/main/Windows/V2/addManifest.bat
 https://fpdownload.macromedia.com/pub/flashplayer/updaters/32/flashplayer_32_sa.exe
