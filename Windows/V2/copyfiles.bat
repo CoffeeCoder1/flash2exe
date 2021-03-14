@@ -51,6 +51,11 @@ echo Copying SWF file...
 echo Done!
 
 
+:: Copy config.txt to sfx folder
+echo Copying config.txt...
+
+  copy config.txt "sfx\config.txt"
+
 :: Copy program files for next two steps to sfx folder
 echo Copying Program Files...
 
