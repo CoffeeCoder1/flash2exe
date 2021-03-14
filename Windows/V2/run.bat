@@ -2,9 +2,10 @@
 
 echo Setting Verbose...
 
-  set Verbose="%4"
+  set Verbose=%4
 
   if %Verbose%=="" set Verbose=off
+  if %Verbose%== set Verbose=off
 
 @echo %Verbose%
 
@@ -32,13 +33,13 @@ echo Done!
 
 echo Setting Variables...
 
-  set SWFFile="%1"
-  set 7zipDir="%2"
-  set EXEName="%3"
+  set SWFFile=%1
+  set 7zipDir=%2
+  set EXEName=%3
   
 echo Done!
 
 
 echo Running downloader...
 
-  downloader.bat "%SWFFile%" "%7zipDrv%" "%EXEName%" "%Verbose%" > dllog.txt
+  start cmd /c downloader.bat %SWFFile% %7zipDrv% %EXEName% %Verbose% > dllog.txt
