@@ -24,6 +24,7 @@ echo Creating Variables...
 
   set flashProjectorName=flashplayer_32_sa.exe
   set lzmaName=lzma1900.7z
+  set WinSDKName="Windows SDK for Windows Store Apps Tools-x86_en-us.msi"
   set SWFFile=%1
   set 7zipDrv=%2
   set EXEName=%3
@@ -77,4 +78,4 @@ echo Done!
 :: Start search.bat with needed paramaters to search for 7zip
 echo Locating 7zip...
 
-  start cmd /c search.bat %SWFFile% %7zipDrv% %flashProjectorName% %lzmaName% %EXEName% %EchoInSearch% > srlog.txt
+  start cmd /c search.bat %SWFFile% %7zipDrv% %flashProjectorName% %lzmaName% %EXEName% %EchoInSearch% %WinSDKName% > srlog.txt
