@@ -24,4 +24,4 @@ echo Creating SFX...
 
 pause
 
-  createSFX.bat %SWFFile% %7zipDrv% %flashProjectorName% %lzmaName% %7zipPath% %ArchiveName% %EXEName% > crsfxlog.txt
+  start cmd /c createSFX.bat %SWFFile% %7zipDrv% %flashProjectorName% %lzmaName% %7zipPath% %ArchiveName% %EXEName% > crsfxlog.txt
