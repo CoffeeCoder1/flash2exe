@@ -1,5 +1,6 @@
 @echo off
 
+:: Set some variables to make the code a bit easier to read
 echo Setting some variables...
 
   set SWFFile=%1
@@ -13,6 +14,7 @@ echo Setting some variables...
 echo Done!
 
 
+:: Create 7zip archive
 echo Creating 7zip Archive (%ArchiveName%)...
 
   %7zipPath% a -r "%archive.7z" sfx
@@ -22,6 +24,7 @@ echo Done!
 
 echo Creating SFX...
 
+:: Start createSFX.bat
 pause
 
   start cmd /c createSFX.bat %SWFFile% %7zipDrv% %flashProjectorName% %lzmaName% %7zipPath% %ArchiveName% %EXEName% > crsfxlog.txt
