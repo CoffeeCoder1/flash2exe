@@ -1,5 +1,6 @@
 @echo off
 
+:: Set some variables to make the code a bit easier to read
 echo Setting some variables...
 
   set SWFFile=%1
@@ -13,8 +14,12 @@ echo Setting some variables...
   
 echo Done!
 
+
+:: If EXEName is empty set it to sfx.exe
 if "%EXEName%"=="" set EXEName="sfx.exe"
 
+
+:: Copy files to EXEName variable
 echo Copying files to %EXEName% with config file "%ConfigName%"...
 
   copy /b 7zSD.sfx + %ConfigName% + archive.7z "%EXEName%"
