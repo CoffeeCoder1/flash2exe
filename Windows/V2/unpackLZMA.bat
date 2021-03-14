@@ -3,6 +3,7 @@
 echo 7zip Unpacker Utility
 
 
+:: Set some variables to make the code more readable
 echo Setting some variables...
 
   set SWFFile=%1
@@ -15,12 +16,15 @@ echo Setting some variables...
 echo Done!
 
 
+:: Use 7zip to unpack the LZMA package to an LZMA folder
 echo Unpacking "%lzmaName%"
 
   %7zipPath% x "%lzmaName%" -o"LZMA"
   
 echo Done!
 
+
+:: Launch copyfiles.bat
 echo Copying needed files...
 
   start cmd /c copyfiles.bat %SWFFile% %7zipDrv% %flashProjectorName% %lzmaName% %7zipPath% %EXEName% > cplog.txt
