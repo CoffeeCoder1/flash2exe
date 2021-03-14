@@ -2,13 +2,13 @@
 
 echo Setting some variables...
 
-  set SWFFile="%1"
-  set 7zipDrv="%2"
-  set flashProjectorName="%3"
-  set lzmaName="%4"
-  set 7zipPath="%5"
-  set EXEName="%6"
-  set ArchiveName="archive.7z"
+  set SWFFile=%1
+  set 7zipDrv=%2
+  set flashProjectorName=%3
+  set lzmaName=%4
+  set 7zipPath=%5
+  set EXEName=%6
+  set ArchiveName=archive.7z
   
 echo Done!
 
@@ -24,4 +24,4 @@ echo Creating SFX...
 
 pause
 
-  createSFX.bat "%SWFFile%" "%7zipDrv%" "%flashProjectorName%" "%lzmaName%" "%7zipPath%" "%ArchiveName%" "%EXEName%" > crsfxlog.txt
+  createSFX.bat %SWFFile% %7zipDrv% %flashProjectorName% %lzmaName% %7zipPath% %ArchiveName% %EXEName% > crsfxlog.txt
