@@ -28,8 +28,9 @@ echo Done!
 :: Use 7zip to unpack needed part of WinSDK to "extract" folder
 echo Unpacking "%WinSDKName%"
 
-  msiexec /a "Windows SDK for Windows Store Apps Tools-x86_en-us.msi" TARGETDIR="C:/TMP/extract" /qb
+  msiexec /a %WinSDKName% TARGETDIR="C:/TMP/extract" /qb
 
+echo Done!
 
 :: Launch copyfiles.bat
 echo Copying needed files...
