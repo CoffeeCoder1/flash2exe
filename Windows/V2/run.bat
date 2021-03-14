@@ -2,7 +2,7 @@
 
 echo Setting Verbose...
 
-  set Verbose=%4
+  set Verbose="%4"
 
   if %Verbose%=="" set Verbose=off
   if %Verbose%== set Verbose=off
@@ -33,9 +33,9 @@ echo Done!
 
 echo Setting Variables...
 
-  set SWFFile=%1
-  set 7zipDir=%2
-  set EXEName=%3
+  set SWFFile="%1"
+  set 7zipDir="%2"
+  set EXEName="%3"
   
 echo Done!
 
