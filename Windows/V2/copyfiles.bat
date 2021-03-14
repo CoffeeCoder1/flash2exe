@@ -1,5 +1,6 @@
 @echo off
 
+:: Set some variables to make the code a bit more readable
 echo Setting some variables...
 
   set SWFFile=%1
@@ -12,6 +13,7 @@ echo Setting some variables...
 echo Done!
 
 
+:: Create folder sfx if it does not exist
 echo Creating folders...
 
   IF NOT EXIST sfx (
@@ -25,6 +27,7 @@ echo Creating folders...
 echo Done!
 
 
+:: Copy 7zip SFX tools to sfx folder
 echo Copying SFX tools...
 
   copy "LZMA\bin\7zSD.sfx" "sfx\7zSD.sfx"
@@ -32,6 +35,7 @@ echo Copying SFX tools...
 echo Done!
 
 
+:: Copy Flash Projector to sfx\archive folder
 echo Copying Flash Projector...
 
   copy "%flashProjectorName%" "sfx\archive\flashprojector.exe"
@@ -39,6 +43,7 @@ echo Copying Flash Projector...
 echo Done!
 
 
+:: Copy SWF file to sfx\archive folder
 echo Copying SWF file...
 
   copy %SWFFile% "sfx\archive\tmp.swf"
@@ -46,6 +51,7 @@ echo Copying SWF file...
 echo Done!
 
 
+:: Copy program files for next two steps to sfx folder
 echo Copying Program Files...
 
   copy packIn7z.bat "sfx\packIn7z.bat"
@@ -55,6 +61,8 @@ echo Done!
 
   cd sfx
 
+
+:: Start packIn7z.bat
 echo Creating 7zip File...
 
   start cmd /c packIn7z.bat %SWFFile% %7zipDrv% %flashProjectorName% %lzmaName% %7zipPath% %EXEName% > packfilelog.txt
