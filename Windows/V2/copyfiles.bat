@@ -61,6 +61,7 @@ echo Copying Program Files...
 
   copy packIn7z.bat "sfx\packIn7z.bat"
   copy createSFX.bat "sfx\createSFX.bat"
+  copy addManifest.bat "sfx\addManifest.bat"
   
 echo Done!
 
