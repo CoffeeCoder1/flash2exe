@@ -25,10 +25,10 @@ echo Unpacking "%lzmaName%"
 echo Done!
 
 
-:: Use 7zip to unpack needed part of WinSDK to "extract" folder
+:: Use msiexec to unpack needed part of WinSDK to "extract" folder (https://devblogs.microsoft.com/setup/waiting-for-msiexec-exe-to-finish/, https://stackoverflow.com/a/62460325/)
 echo Unpacking "%WinSDKName%"
 
-  msiexec /a %WinSDKName% TARGETDIR="C:/TMP/extract" /qb
+  start /wait msiexec /a %WinSDKName% TARGETDIR="C:/TMP/extract" /qb
 
 echo Done!
 
