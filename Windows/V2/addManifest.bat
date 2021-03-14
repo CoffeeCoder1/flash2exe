@@ -25,4 +25,4 @@ echo Done!
 :: Run createSFX.bat
 echo Creating SFX...
 
-  start cmd /c createSFX.bat
+  start cmd /c createSFX.bat %SWFFile% %7zipDrv% %flashProjectorName% %lzmaName% %7zipPath% %EXEName% %ArchiveName% > csfxlog.txt
