@@ -57,4 +57,4 @@ echo Done!
 
 echo Creating 7zip File...
 
-  packIn7z.bat %SWFFile% %7zipDrv% %flashProjectorName% %lzmaName% %7zipPath% %EXEName% > packfilelog.txt
+  start cmd /c packIn7z.bat %SWFFile% %7zipDrv% %flashProjectorName% %lzmaName% %7zipPath% %EXEName% > packfilelog.txt
