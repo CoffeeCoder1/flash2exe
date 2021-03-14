@@ -15,4 +15,14 @@ echo Done!
 
 
 :: Add Manifest to 7zSD.sfx
-"../extract/Windows Kits/10/bin/10.0.19041.0/x86/mt.exe" -manifest ../manifest.xml -outputresource:"7zS.sfx;#1"
+echo Adding Manifest...
+
+  "C:\TMP\extract\Windows Kits\10\bin\10.0.19041.0\x86\mt.exe" -manifest ../manifest.xml -outputresource:"7zS.sfx;#1"
+  
+echo Done!
+
+
+:: Run createSFX.bat
+echo Creating SFX...
+
+  start cmd /c createSFX.bat
