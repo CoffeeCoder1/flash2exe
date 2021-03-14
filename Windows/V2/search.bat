@@ -1,5 +1,7 @@
 @echo off
 
+echo CoffeeCoder1's Search Toolkit
+
 echo Setting some variables...
 
   :: set file to look for to 7zip
@@ -8,12 +10,12 @@ echo Setting some variables...
   :: the drive or path to search.
   set searchPath="%2"
 
-  set SWFFile="%1"
-  set 7zipDrv="%2"
-  set flashProjectorName="%3"
-  set lzmaName="%4"
-  set EXEName="%5"
-  set Verbose="%6"
+  set SWFFile=%1
+  set 7zipDrv=%2
+  set flashProjectorName=%3
+  set lzmaName=%4
+  set EXEName=%5
+  set Verbose=%6
   
 echo Done!
 
@@ -74,9 +76,9 @@ echo Done!
 IF EXIST "%foundFilePath%" (
   echo The path to 7zip is set to '%foundFilePath%'
   echo Unpacking Files...
-  unpackLZMA.bat "%SWFFile%" "%7zipDrv%" "%flashProjectorName%" "%lzmaName%" "%foundFilePath%" "%EXEName%" > uplog.txt
+  start cmd /c unpackLZMA.bat "%SWFFile%" "%7zipDrv%" "%flashProjectorName%" "%lzmaName%" "%foundFilePath%" "%EXEName%" > uplog.txt
 ) else (
-    echo Could not find file '%filename%' under '%searchPath%'
-    echo Downloading 7zip installer...
-    download7zip.bat > dl7zplog.txt
+  echo Could not find file '%filename%' under '%searchPath%'
+  echo Downloading 7zip installer...
+  start cmd /c download7zip.bat > dl7zplog.txt
 )
