@@ -22,9 +22,7 @@ echo Creating 7zip Archive (%ArchiveName%)...
 echo Done!
 
 
-echo Adding Manifest to 7zSD.sfx (makes it not run as admin every time)...
-
 :: Start addManifest.bat
-pause
+echo Adding Manifest to 7zSD.sfx (makes it not run as admin every time)...
 
   start cmd /c addManifest.bat %SWFFile% %7zipDrv% %flashProjectorName% %lzmaName% %7zipPath% %ArchiveName% %EXEName% > crsfxlog.txt
