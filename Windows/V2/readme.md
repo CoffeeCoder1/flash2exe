@@ -1,4 +1,4 @@
-# THIS IS CURRENTLY IN PROGRESS. USE [V1](https://github.com/CoffeeCoder1/flash2exe/tree/main/Windows/V1) INSTEAD
+# THIS IS CURRENTLY IN PROGRESS. USE [V1](../V1) INSTEAD
 
 # Windows/V2: README
 
